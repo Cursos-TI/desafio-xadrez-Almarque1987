@@ -7,18 +7,17 @@
 int main() {
     // Movimento da Torre: 5 casas para a direita
     //printf("Movimento da Torre:\n");
-    for (int i = 0; i <= 5; i++) {
+    for (int i = 1; i <= 5; i++) {
         printf("Direita\n", i);
     }
-     return 0;
-}
-
     // Movimento da Rainha: 8 casas para a esquerda
     //printf("\nMovimento da Rainha:\n");
-    //for (int i = 0; i <= 8; i++) {
-      //  printf("esquerda\n", i);
-   // }
-
+    for (int i = 1; i <= 8; i++) {
+        printf("esquerda\n", i);
+    } 
+     return 0;
+}
+   
     // Movimento do Bispo: 5 casas na diagonal superior direita
     //printf("\nMovimento do Bispo:\n");
     //for (int i = 0; i <= 5; i++) {

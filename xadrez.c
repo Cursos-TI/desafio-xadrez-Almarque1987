@@ -15,15 +15,15 @@ int main() {
     for (int i = 1; i <= 8; i++) {
         printf("esquerda\n", i);
     } 
+    //Movimento do Bispo: 5 casas na diagonal superior direita
+    //printf("\nMovimento do Bispo:\n");
+    for (int i = 1; i <= 5; i++) {
+        // Condição especial para mostrar a direção
+        printf("Diagonal Superior, Direita\n", i);
+    }
      return 0;
 }
    
-    // Movimento do Bispo: 5 casas na diagonal superior direita
-    //printf("\nMovimento do Bispo:\n");
-    //for (int i = 0; i <= 5; i++) {
-        // Condição especial para mostrar a direção
-      //  printf("Diagonal\n", i);
-
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.

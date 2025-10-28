@@ -21,13 +21,24 @@ int main() {
         // Condição especial para mostrar a direção
         printf("Diagonal Superior, Direita\n", i);
     }
+    
+     // Nível Aventureiro - Movimentação do Cavalo
+    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
+    // Um loop pode representar a movimentação horizontal e outro vertical.
+    // Movimento do cavalo: 2 casas para baixo e 1 para a esquerda
+    
+    printf("\nMovimento do Cavalo:\n");
+    int movimentosbaixo = 2;
+    int movimentosesquerda = 1;
+    for (int i = 1; i <= movimentosbaixo; i++) {
+        printf("Baixo\n", i);
+    }
+    for (int j = 1; j <= movimentosesquerda; j++) {
+        printf("Esquerda\n", j);
+    }
      return 0;
 }
    
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
-
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
     // Exemplo: Crie uma função recursiva para o movimento do Bispo.

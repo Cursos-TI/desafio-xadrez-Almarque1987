@@ -60,7 +60,7 @@ void moverCavaloComControle() {
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
 int main() {
-    printf("\nDESAFIO NOVATO\n");
+    /*printf("\nDESAFIO NOVATO\n");
     // Movimento da Torre: 5 casas para a direita
     //printf("Movimento da Torre:\n");
     for (int i = 1; i <= 5; i++) {
@@ -92,7 +92,7 @@ int main() {
     }
     for (int j = 1; j <= movimentosesquerda; j++) {
         printf("Esquerda\n", j);
-    }
+    }*/
         
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
